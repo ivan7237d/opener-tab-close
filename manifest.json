@@ -1,0 +1,16 @@
+{
+  "name": "Opener tab close",
+  "version": "1.1",
+  "description": "Closes the tab from which the current tab was opened.",
+  "manifest_version": 2,
+  "background": {
+    "persistent": true,
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "offline_enabled": true,
+  "browser_action": {
+    "default_title": "Close opener tab"
+  }
+}
